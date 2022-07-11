@@ -16,41 +16,41 @@ function App() {
       <Header />
       <div class="app__itemsContainer">
         <Item
-          title='Lowest Cost Solar Panels in America'
-          desc='Money-back guarantee'
+          title='레갈에 대한 정보'
+          desc='레갈수: 240개, 구역수: 7개, 김창수: 윽ㅋㅋ'
           descLink=''
           backgroundImg={SolarPanels}
-          leftBtnTxt='ORDER NOW'
+          leftBtnTxt='상품명으로 검색'
           leftBtnLink=''
-          rightBtnTxt='LEARN MORE'
+          rightBtnTxt='위치로 검색'
           rightBtnLink=''
           twoButtons='true'
         />
         <Item
-          title='Model S'
-          desc='$69,420'
+          title='A구역'
+          desc='레갈수: 40개'
           descLink=''
           backgroundImg={ModelS}
-          leftBtnTxt='CUSTOM ORDER'
+          leftBtnTxt='상품명으로 검색'
           leftBtnLink=''
-          rightBtnTxt='LEARN MORE'
+          rightBtnTxt='위치로 검색'
           rightBtnLink=''
           twoButtons='true'
         />
         <Item
-          title='Model 3'
-          desc='Money-back guarantee'
+          title='B구역'
+          desc='레갈수: 40개'
           descLink=''
           backgroundImg={Model3}
-          leftBtnTxt='CUSTOM ORDER'
+          leftBtnTxt='상품명으로 검색'
           leftBtnLink=''
-          rightBtnTxt='LEARN MORE'
+          rightBtnTxt='위치로 검색'
           rightBtnLink=''
           twoButtons='true'
         />
         <Item
-          title='Model X'
-          desc='Money-back guarantee'
+          title='C구역'
+          desc='레갈수: 40개'
           descLink=''
           backgroundImg={ModelX}
           leftBtnTxt='CUSTOM ORDER'

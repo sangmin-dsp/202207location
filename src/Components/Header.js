@@ -1,26 +1,28 @@
 import React from 'react';
 import './Header.css';
-import TeslaLogo from '../assets/teslaLogoSmall.svg';
+// import TeslaLogo from '../assets/teslaLogoSmall.svg';
+import { AiOutlineAmazon } from "react-icons/ai";
 
 const Header = () => {
   return (
     <div className="header">
-      <div class="header__logo">
-        <img src={TeslaLogo} alt="Tesla Logo" />
+      <div className="header__logo">
+      <AiOutlineAmazon/>
+      {/* <img src={TeslaLogo} alt="Tesla Logo" /> */}
+      
+   
+        <a href="홈화면 주소 넣으면 됨">Sanmazon</a>
+        </div>
+
+      <div className="header__center">
+        <a href="">About us</a>
+        <a href="">Career</a>
+        <a href="">Location</a>
       </div>
 
-      <div class="header__center">
-        <p>Model S</p>
-        <p>Model 3</p>
-        <p>Model X</p>
-        <p>Model Y</p>
-        <p>Solar Roof</p>
-        <p>Solar Panel</p>
-      </div>
-
-      <div class="header__right">
-        <p>Shop</p>
-        <p>Tesla Account</p>
+      <div className="header__right">
+       <a href="">Register</a>
+      <a href="">Account</a>
       </div>
     </div>
   );
